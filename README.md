@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./four-card-feature.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/kateemillerhd/four-card-feature-section)
+- Live Site URL: [Live Site](https://kateemillerhd.github.io/four-card-feature-section/)
 
 ## My process
 
@@ -48,11 +48,11 @@ Users should be able to:
 
 ### What I learned
 
-
+I practiced grid layout, which is not something I use often, but see the benefits of it. 
 
 ### Continued development
 
-
+I definitely will use grid layout more often in the future. I would like to get more familiar with the setup and layout of grid and its properties.
 
 ## Author
 
