@@ -25,10 +25,10 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: minmax(200px, 1fr) 4fr;
     row-gap: 1rem;
     width: 100%;
-    height: 100%;
+   
 
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ body {
     font-family: "Poppins", sans-serif;
     width: 100%;
 
-    margin-block-start: 1.5rem;
+    margin-block-start: 1rem;
     margin-block-end: 1rem;
 }
 
@@ -79,7 +79,7 @@ body {
     justify-self: center;
 
     margin-block-start: 0.75rem;
-    margin-block-end: 1.05rem;
+
 }
 
 .card {
@@ -104,7 +104,7 @@ body {
 .description {
     font-weight: 200;
     font-size: 0.875rem;
-    margin-block-end: 10px;
+    margin-block-end: 40px;
     font-size: 0.875rem;
 }
 
