@@ -46,26 +46,40 @@ body {
 }
 
 .intro {
+    justify-self: center;
     text-align: center;    
     font-family: "Poppins", sans-serif;
+    width: 100%;
+
+    margin-block-start: 1.5rem;
+    margin-block-end: 1rem;
 }
 
 .light {
     font-weight: 200;
-    font-size: 1.375rem;
+    font-size: 1.5rem;
     color: var(--ltgray);
+    justify-self: center;
+    
 }
 
 .bold {
     font-weight: 600;
-    font-size: 1.375rem;
+    font-size: 1.5rem;
     color: var(--dkgray);
+    justify-self: center;
 }
 
 .normal {
+    width: 85%;
     font-weight: 400;
-    font-size: 0.9375rem;
+    font-size: 0.875rem;
     color: var(--dkgray);
+    text-align: center;
+    justify-self: center;
+
+    margin-block-start: 0.75rem;
+    margin-block-end: 1.05rem;
 }
 
 .card {
@@ -75,7 +89,7 @@ body {
 
     display: grid;
 
-    box-shadow: 6px 8px 14px 0 var(--ltgray); 
+    box-shadow: 4px 6px 18px 0 var(--ltgray); 
     border-radius: 4px;   
  
     padding: 1.25rem;
@@ -90,10 +104,13 @@ body {
 .description {
     font-weight: 200;
     font-size: 0.875rem;
+    margin-block-end: 10px;
+    font-size: 0.875rem;
 }
 
 .icon {
     justify-self: end;
+    margin-block-end: 0.5rem;
 }
 
 #supervisor {
