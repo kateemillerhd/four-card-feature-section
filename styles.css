@@ -25,7 +25,6 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(200px, 1fr) 4fr;
     row-gap: 1rem;
     width: 100%;
    
@@ -128,4 +127,49 @@ body {
 
 #calculator {
     border-top: 3px solid var(--blue);
+}
+
+@media (min-width: 64rem) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .normal {
+        max-width: 30%;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 375px);
+
+        grid-template-areas: 
+            "card1 card2 card3"
+            "card1 card2 card3"
+            "card1 card4 card3"
+            "card1 card4 card3";
+        width: 90%; 
+        max-width: 75rem;
+        justify-self: center;
+
+        row-gap: 1rem;
+    }
+
+    #supervisor {
+        grid-area: card1
+    }
+
+    #team-builder {
+        grid-area: card2;
+    }
+
+    #calculator {
+        grid-area: card3;
+    }
+
+    #karma {
+        grid-area: card4;
+    }
+
+
 }
